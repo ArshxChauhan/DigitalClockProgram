@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  background-image: url(./1372963.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  height: 100vh;
+  flex-direction: column;
+}
+
+#clock{
+
+  font-size: 5.5rem;
+  font-weight: bold;
+  font-family: monospace;
+  color: white;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.025);
+
+}
+
+#dateContainer{
+  font-size: 3rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: monospace;
+  margin-top: 25px;
+  backdrop-filter: blur(5px);
+}
